@@ -1,4 +1,4 @@
-# Sustainable Analysis Project 🌱
+# Sustainability Analysis Project 🌱
 
 This repository contains a time-series forecasting project that demonstrates key skills in sustainability, environmental, and energy analysis. The project applies advanced analytical techniques to showcase actionable insights for addressing environmental and energy challenges.
 
