@@ -54,6 +54,14 @@ The project demonstrates skills in:
 </p>
 
 ---
+## 💾 Data Source
+
+The dataset used for this analysis was downloaded from **Kaggle**:  
+[**Global Data on Sustainable Energy**](https://www.kaggle.com/datasets/anshtanwar/global-data-on-sustainable-energy)  
+
+This dataset includes comprehensive information on global energy usage, CO2 emissions, and renewable energy adoption. Proper attribution is given to the original author.
+
+---
 
 ## 💻 Interactive Version
 
