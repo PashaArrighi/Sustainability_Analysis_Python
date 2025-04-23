@@ -1,100 +1,97 @@
-<h1 align="center">Sustainable Energy and CO2 Emissions Analysis 🌱</h1>
+# 🌍 Analysis and Optimization of Global Energy Sustainability
 
-<p align="justify">
-This project explores the relationships between energy usage, CO2 emissions, and renewable energy adoption using data analysis and visualization. By leveraging machine learning techniques, the analysis identifies key factors influencing CO2 emissions and highlights opportunities for sustainable energy improvements.
-</p>
-
-<p align="justify">
-The project demonstrates skills in:
-
-- Data Cleaning and Preparation
-    
-- Time-Series Analysis and Forecasting
-    
-- Feature Importance Analysis
-    
-- Visualization of Insights
+## 📌 Project Overview
+This project explores global energy sustainability using a rich dataset spanning from **2000 to 2020**, with the goal of identifying key drivers of **CO₂ emissions per capita**. Through data exploration and machine learning, we uncover actionable insights that can inform policy, support ESG strategies, and advance the energy transition.
 
 ---
 
-## 🔍 Key Insights
+## 📦 Dataset Description
+The dataset includes over 20 years of data across countries, with indicators such as:
+- CO₂ emissions per capita  
+- GDP per capita  
+- Energy intensity  
+- Renewable energy share  
+- Population density  
+- Electricity access, and more
 
-<p align="justify">
-    
-- <b>Feature Importance Analysis</b>: Electricity from fossil fuels is the most significant predictor of CO2 emissions.<br>
-    
-- <b>High CO2 Emitters</b>: Countries like the United States and China have high fossil fuel usage and low renewable energy adoption.<be>
-
-- <b>Top Renewable Energy Countries</b>: Ethiopia, Uganda, and Mozambique lead with >90% renewable energy shares.<be>
-
-- <b>Energy Intensity</b>: Countries with high energy intensity often have lower renewable energy shares, highlighting inefficiencies.
-  
-</p>
+Source: [**Global Data on Sustainable Energy**](https://www.kaggle.com/datasets/anshtanwar/global-data-on-sustainable-energy)  
 
 ---
 
-## 📊 Visualizations
-
-## 1. Feature Importance for Predicting CO2 Emissions
-</p>
-<p align="center">
-<img src="feature_importance_co2_fixed.png" alt="Feature Importance for Predicting CO2 Emissions">
-</p>
-
-## 2. Renewable Energy Share vs CO2 Emissions
-</p>
-<p align="center">
-<img src="fossil_fuel_vs_co2_emissions.png" alt="Scatter Plot: Renewable Energy Share vs CO2 Emissions">
-</p>
-
-## 3. Actual vs Predicted CO2 Emissions (Random Forest Model)
-</p>
-<p align="center">
-<img src="actual_vs_predicted_co2.png" alt="Time-Series Forecasting of CO2 Emissions">
-</p>
-
----
-## 💾 Data Source
-
-The dataset used for this analysis was downloaded from **Kaggle**:  
-[**Global Data on Sustainable Energy**](https://www.kaggle.com/datasets/anshtanwar/global-data-on-sustainable-energy)  
-
-This dataset includes comprehensive information on global energy usage, CO2 emissions, and renewable energy adoption. Proper attribution is given to the original author.
+## 🔍 Key Objectives
+1. Clean, explore, and visualise global energy and emission indicators  
+2. Use machine learning to **predict CO₂ emissions per capita**  
+3. Identify the most impactful variables  
+4. Provide **recommendations for sustainability strategies**
 
 ---
 
-## 💻 Interactive Version
-
-<p align="justify">
-To explore the fully interactive version of the notebook, visit:  
-<a href="https://nbviewer.org/github/PashaArrighi/Sustainability_Analysis/blob/main/sustainable_analysis.ipynb"><b>View the Notebook on NBViewer</b></a>
-</p>
-
-<p align="justify">
-<b>Note</b>: On NBViewer, some visualizations may appear duplicated due to manual execution of hidden code cells used for debugging purposes in Jupyter Notebook. This does not affect the correctness of the results.
-</p>
+## 🧪 Tools & Techniques
+- **Language:** Python  
+- **Libraries:** pandas, matplotlib, seaborn, scikit-learn  
+- **ML Model:** Random Forest Regressor  
+- **Evaluation:** R², RMSE, MAE, Feature Importance  
+- **Tuning:** RandomizedSearchCV with cross-validation
 
 ---
 
-## 🛠 Tools and Technologies
-
-<ul>
-    <li><b>Programming Language</b>: Python</li>
-    <li><b>Libraries</b>: Pandas, Matplotlib, Seaborn, Scikit-learn</li>
-    <li><b>Environment</b>: Jupyter Notebook</li>
-</ul>
+## 📊 Exploratory Data Analysis (EDA)
+We examined:
+- Regional disparities in energy use and emissions  
+- Correlation between economic development and emissions  
+- Renewable adoption trends and outliers  
+- Data cleaning and scaling to prep for modelling
 
 ---
 
-## 🚀 How to Use This Project
+## 🤖 Predictive Modelling
+- **Target:** CO₂ emissions (metric tons per capita)
+- **Features Used:**
+  - GDP per capita
+  - Renewable energy share
+  - Population density
+  - Energy intensity (MJ per $GDP)
+- **Final Model:** Random Forest with tuning
+- **Best Cross-Validated R²:** **0.8530**
 
-<p align="justify">
-1. Clone the repository:
-</p>
+---
 
-```bash
-git clone https://github.com/PashaArrighi/Sustainability_Analysis.git
-```
+## 📈 Key Results & Insights
+### 🔹 Feature Importance
+1. Population density  
+2. Renewable energy share  
+3. Energy intensity  
+4. GDP per capita
 
-## 🎯 Conclusion
-<p align="justify"> This project showcases my analytical skills and ability to derive meaningful insights for sustainable decision-making. I am passionate about applying data-driven solutions in roles such as: </p> <ul> <li><b>Sustainability Analyst</b></li> <li><b>Environmental Analyst</b></li> <li><b>Energy Analyst</b></li> </ul> <p align="justify"> Feel free to connect with me for feedback, collaboration, or opportunities in this exciting field!  </p> 
+### 🔹 Model Performance
+- R² = 0.85 (CV tuned)  
+- Accurate for most countries; slight underestimation for outliers  
+- Scatter plot shows strong predictive alignment with actual values
+
+---
+
+## ✅ Recommendations
+- **Improve urban infrastructure** to reduce emissions in dense regions  
+- **Expand renewable energy capacity** to accelerate decarbonisation  
+- **Enhance energy efficiency** across sectors to reduce energy intensity
+
+---
+
+## 💼 Why This Matters
+This project reflects real-world challenges in climate data analysis and shows your ability to:
+- Work with complex sustainability datasets
+- Build and validate predictive models
+- Extract insights that matter to policy, ESG reporting, and sustainability strategy
+
+---
+
+## 📮 Next Steps
+- Integrate time-series forecasting
+- Build a dashboard using Tableau/Power BI
+- Align indicators with ESG frameworks (e.g., SDGs, TCFD, GRI)
+
+---
+
+## 👋 About Me
+I'm a Master of Business Analytics student passionate about using data to solve sustainability and environmental challenges.  
+Let’s connect on **LinkedIn** ([https://linkedin.com/](https://www.linkedin.com/in/pashaarrighi/))
